@@ -2,6 +2,13 @@
   --main_color: #17c76f;
 }
 
+a.nav-link {
+  color: #fff !important;
+}
+a i {
+  margin-right: 10px;
+}
+
 .maincolor {
   background-color: var(--main_color);
 }
@@ -41,6 +48,13 @@
 .card-body h5 {
   text-align: center;
   font-size: 20px;
+}
+.card {
+  transition: 0.4s;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .doller {
   text-align: center;
